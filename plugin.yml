@@ -1,14 +1,14 @@
-name: TitaniumDonate
+name: Ranks
 author: ItzBulkDev
 main: TitaniumDonate\Main
 version: 1.0
 api: [1.12.0]
 commands:
-  donate:
-    description: Website to donate
-    permission: donate.command
+  ranks:
+    description: List of ranks
+    permission: ranks.command
 permissions:
-  donate.command:
+  ranks.command:
     default: true
-    description: "Website to donate"
+    description: "List of ranks"
 
